@@ -1,18 +1,20 @@
 fetch("./skills.json").then((res) => {if (!res.ok) {} return res.json();}).then((data) => {
   
   skills = data; 
+  showData(skills);
 
-  skills.forEach((skill)=>{
-        addProduct(skill['name'], skill['gender'],  skill['img'],  skill['skill'],  skill['experience'],  skill['contact'],  skill['country'],  skill['pin']);
-  });
 }).catch();
 
-
+function showData(data){
+  data.forEach((skill)=>{
+        addProduct(data, skill, skill['name'], skill['gender'],  skill['img'],  skill['skill'],  skill['experience'],  skill['contact'],  skill['country'],  skill['pin']);
+  });
+}
 
 ctry = {"USA": ".\\media\\USA.png", "UK": ".\\media\\UK.png", "Italy": ".\\media\\Italy.png", "India": ".\\media\\India.png", "France": ".\\media\\France.png"}
 
 
-function addProduct(name, gender, image, skill, experience, contact, country, pin) {
+function addProduct(skills, data, name, gender, image, skill, experience, contact, country, pin) {
 
   const li = document.createElement('li');
   li.setAttribute("class", "liItem");
@@ -45,6 +47,29 @@ function addProduct(name, gender, image, skill, experience, contact, country, pi
   const hire = document.createElement('button');
   hire.setAttribute("class", "hire");
   hire.innerHTML = "Hire Now";
+  hire.addEventListener("click", ()=>{
+
+      var hiresss = localStorage['hires'];
+
+      if (hiresss != "undefined" && hiresss !== undefined) {
+
+        hiresss = JSON.parse(hiresss);
+        if (!hiresss.some(h => (h['name'] === data['name'] && h['country'] === data['country'] && h['skill'] === data['skill']))) {
+          hiresss.push(data);
+          localStorage['hires'] = JSON.stringify(hiresss);
+          alert(data['name']+" hired! Check for updates in Hires Tab");
+        }else{
+          alert(data['name']+" already hired! Check in Hires Tab");
+        }
+
+      }else{
+        hiresss = [];
+        hiresss.push(data);
+         localStorage['hires'] = JSON.stringify(hiresss);
+         alert(data['name']+" hired! Check for updates in Hires Tab");
+      }
+
+  });
 
   texts.appendChild(title);
   texts.appendChild(skillll);
