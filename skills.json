@@ -1,152 +1,292 @@
 [
   {
-    "name": "Elon Musk",
-    "gender": 0,
+    "name": "John Smith",
+    "Gender": 0,
     "skill": "Entrepreneur",
     "experience": "7 years",
-    "img": "elon.jpg",
-    "contact": "elon@example.com",
-    "country": "USA",
-    "pin": "90210"
+    "img": "john.jpg",
+    "contact": "johnsmith@example.com",
+    "Country": "USA",
+    "Pin/postal code": "90210"
   },
   {
-    "name": "Giorgia Meloni",
-    "gender": 1,
+    "name": "Francesca Rossi",
+    "Gender": 1,
     "skill": "Mathematician",
     "experience": "5 years",
-    "img": "meloni.jpg",
-    "contact": "meloni@example.com",
-    "country": "Italy",
-    "pin": "W1A 1AA"
+    "img": "rossi.jpg",
+    "contact": "francesca.rossi@example.com",
+    "Country": "Italy",
+    "Pin/postal code": "W1A 1AA"
   },
   {
-    "name": "Narendra Modi",
-    "gender": 0,
+    "name": "Rajesh Kumar",
+    "Gender": 0,
     "skill": "Political Leader",
-    "experience": "65 years",
-    "img": "modi.jpg",
-    "contact": "modi@example.com",
-    "country": "India",
-    "pin": "81947"
+    "experience": "25 years",
+    "img": "rajesh.jpg",
+    "contact": "rajesh.kumar@example.com",
+    "Country": "India",
+    "Pin/postal code": "81947"
   },
   {
-    "name": "Marie Curie",
-    "gender": 1,
+    "name": "Claire Dubois",
+    "Gender": 1,
     "skill": "Scientist",
     "experience": "15 years",
-    "img": "curie.jpg",
-    "contact": "curie@example.com",
-    "country": "France",
-    "pin": "75000"
+    "img": "claire.jpg",
+    "contact": "claire.dubois@example.com",
+    "Country": "France",
+    "Pin/postal code": "75000"
   },
   {
-    "name": "Steve Jobs",
-    "gender": 0,
+    "name": "Michael Peterson",
+    "Gender": 0,
     "skill": "Product Designer",
     "experience": "20 years",
-    "img": "jobs.jpg",
-    "contact": "jobs@example.com",
-    "country": "USA",
-    "pin": "94025"
+    "img": "michael.jpg",
+    "contact": "michael@example.com",
+    "Country": "USA",
+    "Pin/postal code": "94025"
   },
   {
-    "name": "Ritu karidhal",
-    "gender": 1,
+    "name": "Ritu Patel",
+    "Gender": 1,
     "skill": "ISRO Scientist",
     "experience": "30 years",
     "img": "ritu.jpg",
-    "contact": "rk@example.com",
-    "country": "India",
-    "pin": "24060"
+    "contact": "ritu.patel@example.com",
+    "Country": "India",
+    "Pin/postal code": "24060"
   },
   {
-    "name": "Mark Zuckerberg",
-    "gender": 0,
+    "name": "Mark Davis",
+    "Gender": 0,
     "skill": "Software Engineer",
     "experience": "15 years",
     "img": "mark.jpg",
-    "contact": "zuck@example.com",
-    "country": "USA",
-    "pin": "94025"
+    "contact": "mark.davis@example.com",
+    "Country": "USA",
+    "Pin/postal code": "94025"
   },
   {
-    "name": "Grace Hopper",
-    "gender": 1,
+    "name": "Grace Taylor",
+    "Gender": 1,
     "skill": "Computer Scientist",
     "experience": "40 years",
-    "img": "hopper.jpg",
-    "contact": "gh@example.com",
-    "country": "USA",
-    "pin": "10001"
+    "img": "grace.jpg",
+    "contact": "grace.taylor@example.com",
+    "Country": "USA",
+    "Pin/postal code": "10001"
   },
   {
-    "name": "Sundar Pichai",
-    "gender": 0,
+    "name": "Sundar Gupta",
+    "Gender": 0,
     "skill": "Tech Executive",
     "experience": "22 years",
     "img": "sundar.jpg",
-    "contact": "sundar@example.com",
-    "country": "India",
-    "pin": "600001"
+    "contact": "sundar.gupta@example.com",
+    "Country": "India",
+    "Pin/postal code": "600001"
   },
   {
-    "name": "Indra Nooyi",
-    "gender": 1,
+    "name": "Indira Sharma",
+    "Gender": 1,
     "skill": "Business Executive",
     "experience": "28 years",
-    "img": "indra.jpg",
-    "contact": "indra@example.com",
-    "country": "India",
-    "pin": "110001"
+    "img": "indira.jpg",
+    "contact": "indira.sharma@example.com",
+    "Country": "India",
+    "Pin/postal code": "110001"
   },
   {
-    "name": "Tim Berners-Lee",
-    "gender": 0,
+    "name": "Oliver Wilson",
+    "Gender": 0,
     "skill": "Web Inventor",
     "experience": "35 years",
-    "img": "tim.jpg",
-    "contact": "tim@example.com",
-    "country": "UK",
-    "pin": "OX1 2JD"
+    "img": "wilson.jpg",
+    "contact": "oliver.wilson@example.com",
+    "Country": "UK",
+    "Pin/postal code": "OX1 2JD"
   },
   {
-    "name": "Sheryl Sandberg",
-    "gender": 1,
+    "name": "Emily Adams",
+    "Gender": 1,
     "skill": "COO",
     "experience": "18 years",
-    "img": "sheryl.jpg",
-    "contact": "sheryl@example.com",
-    "country": "USA",
-    "pin": "90212"
+    "img": "emily.jpg",
+    "contact": "emily.adams@example.com",
+    "Country": "USA",
+    "Pin/postal code": "90212"
   },
   {
-    "name": "Dr. APJ Abdul Kalam",
-    "gender": 0,
+    "name": "Amit Verma",
+    "Gender": 0,
     "skill": "Scientist & Leader",
     "experience": "40 years",
-    "img": "kalam.jpg",
-    "contact": "kalam@example.com",
-    "country": "India",
-    "pin": "600004"
+    "img": "amit.jpg",
+    "contact": "amit.verma@example.com",
+    "Country": "India",
+    "Pin/postal code": "600004"
   },
   {
-    "name": "Mona Lisa",
-    "gender": 1,
+    "name": "Aishwarya Singh",
+    "Gender": 1,
     "skill": "CEO",
     "experience": "26 years",
-    "img": "dummy.jpg",
-    "contact": "monalisa@example.com",
-    "country": "USA",
-    "pin": "10022"
+    "img": "aishu.jpg",
+    "contact": "aishwarya.singh@example.com",
+    "Country": "India",
+    "Pin/postal code": "10022"
   },
   {
-    "name": "Shah Rukh Khan",
-    "gender": 0,
+    "name": "Sampoornesh Babu",
+    "Gender": 0,
     "skill": "Indian Actor and Producer",
-    "experience": "50 years",
-    "img": "srk.jpg",
-    "contact": "srk@example.com",
-    "country": "India",
-    "pin": "110011"
+    "experience": "10 years",
+    "img": "sb.jpg",
+    "contact": "sampu.babu@example.com",
+    "Country": "India",
+    "Pin/postal code": "110011"
+  },
+  {
+    "name": "Sophia Lee",
+    "Gender": 1,
+    "skill": "Chef",
+    "experience": "10 years",
+    "img": "lee.jpg",
+    "contact": "sophia.lee@example.com",
+    "Country": "France",
+    "Pin/postal code": "12345"
+  },
+  {
+    "name": "Lukas Bauer",
+    "Gender": 0,
+    "skill": "Architect",
+    "experience": "12 years",
+    "img": "lucas.jpg",
+    "contact": "lukas.bauer@example.com",
+    "Country": "Italy",
+    "Pin/postal code": "67890"
+  },
+  {
+    "name": "Isabella Johnson",
+    "Gender": 1,
+    "skill": "Writer",
+    "experience": "8 years",
+    "img": "isa.jpg",
+    "contact": "isabella.johnson@example.com",
+    "Country": "UK",
+    "Pin/postal code": "M5A 1A1"
+  },
+  {
+    "name": "Benjamin Clark",
+    "Gender": 0,
+    "skill": "Biologist",
+    "experience": "20 years",
+    "img": "ben.jpg",
+    "contact": "benjamin.clark@example.com",
+    "Country": "USA",
+    "Pin/postal code": "2000"
+  },
+  {
+    "name": "Liam Carter",
+    "Gender": 0,
+    "skill": "Economist",
+    "experience": "22 years",
+    "img": "liam.jpg",
+    "contact": "liam.carter@example.com",
+    "Country": "UK",
+    "Pin/postal code": "EC2A 4AA"
+  },
+  {
+    "name": "Marie Lefevre",
+    "Gender": 1,
+    "skill": "Journalist",
+    "experience": "15 years",
+    "img": "marie.jpg",
+    "contact": "marie.lefevre@example.com",
+    "Country": "France",
+    "Pin/postal code": "75003"
+  },
+  {
+    "name": "Giuseppe Bianchi",
+    "Gender": 0,
+    "skill": "Musician",
+    "experience": "25 years",
+    "img": "giu.jpg",
+    "contact": "giuseppe.bianchi@example.com",
+    "Country": "Italy",
+    "Pin/postal code": "00100"
+  },
+  {
+    "name": "Carlos Rivera",
+    "Gender": 1,
+    "skill": "Philosopher",
+    "experience": "30 years",
+    "img": "carlos.jpg",
+    "contact": "carlos.rivera@example.com",
+    "Country": "UK",
+    "Pin/postal code": "08001"
+  },
+  {
+    "name": "Renato Silva",
+    "Gender": 0,
+    "skill": "Artist",
+    "experience": "18 years",
+    "img": "ren.jpg",
+    "contact": "renato.silva@example.com",
+    "Country": "USA",
+    "Pin/postal code": "40000"
+  },
+  {
+    "name": "Sophie Lefevre",
+    "Gender": 1,
+    "skill": "Fashion Designer",
+    "experience": "14 years",
+    "img": "sophie.jpg",
+    "contact": "sophie.lefevre@example.com",
+    "Country": "France",
+    "Pin/postal code": "75008"
+  },
+  {
+    "name": "Marco Bianchi",
+    "Gender": 0,
+    "skill": "Civil Engineer",
+    "experience": "18 years",
+    "img": "marco.jpg",
+    "contact": "marco.bianchi@example.com",
+    "Country": "Italy",
+    "Pin/postal code": "40100"
+  },
+  {
+    "name": "Priya Sharma",
+    "Gender": 1,
+    "skill": "Software Engineer",
+    "experience": "12 years",
+    "img": "priya.jpg",
+    "contact": "priya.sharma@example.com",
+    "Country": "India",
+    "Pin/postal code": "500061"
+  },
+  {
+    "name": "Oliver Clarke",
+    "Gender": 0,
+    "skill": "Architect",
+    "experience": "20 years",
+    "img": "oliver.jpg",
+    "contact": "oliver.clarke@example.com",
+    "Country": "UK",
+    "Pin/postal code": "SW1A 1AA"
+  },
+  {
+    "name": "Madison Scott",
+    "Gender": 1,
+    "skill": "Marketing Executive",
+    "experience": "9 years",
+    "img": "madison.jpg",
+    "contact": "madison.scott@example.com",
+    "Country": "USA",
+    "Pin/postal code": "90210"
   }
 ]
