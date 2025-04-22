@@ -7,7 +7,7 @@ fetch("./skills.json").then((res) => {if (!res.ok) {} return res.json();}).then(
 
 function showData(data){
   data.forEach((skill)=>{
-        addProduct(data, skill, skill['name'], skill['gender'],  skill['img'],  skill['skill'],  skill['experience'],  skill['contact'],  skill['country'],  skill['pin']);
+        addProduct(data, skill, skill['name'], skill['gender'],  skill['img'],  skill['skill'],  skill['experience'],  skill['contact'],  skill['Country'],  skill['pin']);
   });
 }
 
