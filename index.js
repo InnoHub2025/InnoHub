@@ -1,13 +1,39 @@
-fetch("./skills.json").then((res) => {if (!res.ok) {} return res.json();}).then((data) => {
+function display() {
+  fetch("./skills.json").then((res) => {if (!res.ok) {} return res.json();}).then((data) => {
   
   skills = data; 
-  showData(skills);
+  showData(skills, true, '533003');
+  localStorage['skills'] = JSON.stringify(skills);
 
 }).catch();
+}
 
-function showData(data){
+display();
+
+function pincode(){
+  let pincodE = prompt('Enter Pincode');
+  localStorage['pincode'] = pincodE;
+}
+
+function showResults(){
+   if (document.getElementById('search').value===''){
+     display();
+   }else{
+   let pincod = localStorage['pincode'];
+   let skillsData = JSON.parse(localStorage['skills']);
+   showData(skillsData, false, pincod);
+   }
+}
+
+
+function showData(data, isAll, pin){
+  
   data.forEach((skill)=>{
-        addProduct(data, skill, skill['name'], skill['Gender'],  skill['img'],  skill['skill'],  skill['experience'],  skill['contact'],  skill['Country'],  skill['pin']);
+        if(!isAll && skill['pincode']===pin){
+           addProduct(data, skill, skill['name'], skill['gender'],  skill['img'],  skill['skill'],  skill['experience'],  skill['contact'],  skill['country'],  skill['pincode']);
+        }else{
+           addProduct(data, skill, skill['name'], skill['gender'],  skill['img'],  skill['skill'],  skill['experience'],  skill['contact'],  skill['country'],  skill['pincode']);
+        }
   });
 }
 
@@ -24,6 +50,7 @@ function addProduct(skills, data, name, gender, image, skill, experience, contac
   const img = document.createElement('img');
   img.setAttribute("class", "image");
   img.setAttribute("src", "./media/"+image);
+  img.setAttribute("onerror", "this.src='./media/dummy.jpg'")
 
   const texts = document.createElement('div');
   texts.setAttribute("class", "texts");
