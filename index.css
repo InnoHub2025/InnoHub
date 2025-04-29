@@ -150,7 +150,6 @@ nav ul li:hover{
 .location a{
 	text-decoration: underline;
 	color: blue;
-	display: none;
 	cursor: pointer;
 }
 
