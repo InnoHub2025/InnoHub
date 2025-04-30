@@ -309,6 +309,7 @@ nav ul li:hover{
 
 .image{
 	width: 100%;
+	object-fit: cover;
 	aspect-ratio: 1/1;
 	border-radius: 15px;
 }
@@ -478,6 +479,10 @@ nav ul li:hover{
 	font-size: 1.2rem;
 	padding: 5px 20px;
 }
+	footer p {
+		font-size: 1rem;
+		margin-bottom: 100px;
+	}
 
 .mainList  li{
 	background-color: var(--headmain);
@@ -537,6 +542,21 @@ footer p i{
 	font-size: 1.5rem;
 }
 
+.contactInfo{
+	background-color: black;
+	display: flex;
+	color: white;
+	padding: 10%;
+	gap: 20,px;
+	font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 700px){
+	.contactInfo{
+		flex-direction: column;
+		gap: 30px;
+	}
+}
 
 /* 
 dark -> 16423C

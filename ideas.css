@@ -96,7 +96,7 @@ nav ul li:hover{
 	padding: 0 10%;
 	height: 80px;
 	margin: 2% 0 0 0;
-	display: flex;
+	display: none;
 	align-items: center;
 	justify-content: center;
 }
@@ -298,6 +298,7 @@ nav ul li:hover{
 	padding: 15px;
 	background-color: #fff;
 	overflow:  hidden;
+	gap: 15px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -323,6 +324,16 @@ nav ul li:hover{
 	overflow:  hidden;
 }
 
+.experiencess {
+	color: black;
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.8rem;
+	padding-left: 20px;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	overflow:  hidden;
+}
 .hire {
 	margin-top: 12px;
 	width: 100%;
@@ -405,6 +416,129 @@ footer p i{
 	font-size: 1.5rem;
 }
 
+.contactInfo{
+	background-color: black;
+	display: flex;
+	color: white;
+	padding: 10%;
+	gap: 20,px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.overlay{
+	position: absolute;
+	z-index: 3;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	align-items: center;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#content{
+	background-color: white;
+	padding: 25px;
+	width: 80%;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	font-family: 'Poppins', sans-serif;
+}
+
+#collaborated{
+	color: royalblue;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1rem;
+}
+
+.open{
+	display: flex;
+}
+
+.close{
+	display: none;
+}
+
+#title{
+	color: black;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+#category{
+	color: gray;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1rem;
+	text-align: center;
+}
+
+#author{
+	color: black;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 0.8rem;
+	text-align: center;
+}
+	footer p {
+		font-size: 1rem;
+		margin-bottom: 100px;
+	}
+
+#collaborate{
+	color: white;
+	background-color: var(--headmain);
+	font-style: normal;
+	font-weight: 600;
+	font-size: 0.8rem;
+	text-align: center;
+	border: 2px solid var(--headmain);
+	border-radius: 20px;
+	padding: 10px;
+}
+
+#cancel{
+	color: red;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 0.8rem;
+	text-align: center;
+	border: none;
+	background: none;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.boy{
+	color: navy;
+}
+
+.girl{
+	color: deeppink;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+	.contactInfo{
+		flex-direction: column;
+		gap: 30px;
+	}
+}
 
 
 @media screen and (max-width: 800px){
@@ -454,6 +588,11 @@ footer p i{
 	.logo{
 		position: fixed;
 	}
+	footer p {
+		font-size: 1rem;
+		margin-bottom: 100px;
+	}
+
 
 	.chosen-wrapper {
 		width: 50%;
@@ -498,6 +637,11 @@ footer p i{
 	}
 
 
+	footer p {
+		font-size: 1rem;
+		margin-bottom: 100px;
+	}
+
 	#wishlist i , #cart i {
 		font-size: 1rem;
 	}
@@ -531,6 +675,11 @@ footer p i{
 
 	#wishlist i, #cart i {
 		font-size: 1rem;
+	}
+
+	footer p {
+		font-size: 1rem;
+		margin-bottom: 100px;
 	}
 
 

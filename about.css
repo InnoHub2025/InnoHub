@@ -536,6 +536,26 @@ footer p i{
 	font-size: 1.5rem;
 }
 
+.contactInfo{
+	background-color: black;
+	display: flex;
+	color: white;
+	padding: 10%;
+	gap: 20,px;
+	font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 700px){
+	.contactInfo{
+		flex-direction: column;
+		gap: 30px;
+	}
+}
+
+	footer p {
+		font-size: 1rem;
+		margin-bottom: 100px;
+	}
 #content{
 	background-color: white;
 	padding: 25px;
@@ -673,6 +693,10 @@ white -> F6F6F6
 		font-size: 1rem;
 	}
 
+	footer p {
+		font-size: 1rem;
+		margin-bottom: 100px;
+	}
 
 	.heading{
 		font-size: 2rem;
@@ -702,6 +726,10 @@ white -> F6F6F6
 
 	#wishlist i, #cart i {
 		font-size: 1rem;
+	}
+	footer p {
+		font-size: 1rem;
+		margin-bottom: 100px;
 	}
 
 	.heading{

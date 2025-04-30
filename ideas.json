@@ -11,8 +11,8 @@
     "pre_description": "Hi, this is Ananya Sharma. I'm working on an AI-powered tutor that adjusts to each student's needs, making learning more effective and accessible.",
     "description": "This project envisions a smart AI learning assistant that leverages machine learning and NLP to assess student performance in real time. It adapts content delivery based on learning speed, identifies weak areas through interactive assessments, and generates custom quizzes. It supports multilingual features, subject-wise breakdowns, and integration with educational platforms like Google Classroom. Implementation will involve developing a web/mobile app using AI frameworks such as TensorFlow and integrating student data privacy and analytics for educators.",
     "category": "Product Service",
-    "payment_status": "Pending",
-    "Votes": "41"
+    "payment_status": 1,
+    "Votes": 41
   },
   {
     "id": 2,
@@ -26,8 +26,8 @@
     "pre_description": "Hi, this is Rahul Verma. I'm building a voice-controlled smart mirror that delivers real-time personal updates while you get ready.",
     "description": "This smart mirror integrates a digital display behind a reflective surface, powered by voice-assistants like Alexa or Google Assistant. It shows weather, calendar events, health stats, and news. Using IoT sensors and Bluetooth connectivity, it syncs with wearables and smartphones. The mirror will be built using Raspberry Pi or similar microcontrollers and a two-way mirror glass. It aims to serve as a personal dashboard for users starting their day with quick insights.",
     "category": "Start-up",
-    "payment_status": "Pending",
-    "Votes": "33"
+    "payment_status": 1,
+    "Votes": 33
   },
   {
     "id": 3,
@@ -41,8 +41,8 @@
     "pre_description": "Hi, this is Meera Thomas. I'm developing a fun, game-based platform to help kids learn new languages more engagingly.",
     "description": "This idea combines education with entertainment to help children learn languages through gamification. The platform uses AI to tailor challenges, quizzes, and stories to each child’s learning curve. Features include cartoon avatars, AI pronunciation correction, and multiplayer competitions. Implementation will involve Unity for the game engine, text-to-speech APIs, and child-safe UI/UX design. It will be accessible on web and mobile, with parental dashboards and language progress tracking.",
     "category": "Product Service",
-    "payment_status": "Pending",
-    "Votes": "21"
+    "payment_status": 0,
+    "Votes": 21
   },
   {
     "id": 4,
@@ -56,8 +56,8 @@
     "pre_description": "Hi, this is Kiran Das. I'm creating an AR-based interior design app to help users visualize changes in their home before buying furniture or decor.",
     "description": "The app lets users scan rooms and overlay 3D models of furniture, paint colors, and decorations using their smartphone cameras. This helps reduce product returns by enabling visualization before purchase. Implementation includes ARKit/ARCore for 3D rendering, a product database from partner brands, and a UI to allow drag-and-drop placement. The app will also offer style suggestions and budget tracking.",
     "category": "Business Related",
-    "payment_status": "Pending",
-    "Votes": "35"
+    "payment_status": 0,
+    "Votes": 35
   },
   {
     "id": 5,
@@ -71,8 +71,8 @@
     "pre_description": "Hi, this is Sneha Patel. I'm working on a sustainable delivery service that uses electric bikes and recycled materials.",
     "description": "Green Parcel is a logistics startup focusing on eco-conscious last-mile delivery. It utilizes electric bikes to cut emissions and employs biodegradable or recycled packaging. Users can track packages via a mobile app that calculates environmental savings. Implementation involves setting up delivery hubs, partnering with eco-conscious suppliers, and building a logistics algorithm to optimize routes based on energy efficiency.",
     "category": "Start-up",
-    "payment_status": "Pending",
-    "Votes": "43"
+    "payment_status": 0,
+    "Votes": 43
   },
   {
     "id": 6,
@@ -86,8 +86,8 @@
     "pre_description": "Hi, this is Suresh Menon. I'm designing an AI-based fitness coach that guides users with live feedback using their phone camera.",
     "description": "This app uses AI and computer vision to detect body posture and form during workouts. It provides real-time corrections and motivational tips. Users receive personalized workout plans based on their goals and progress tracked through analytics. It includes a social aspect for virtual group workouts. The app uses OpenPose or MediaPipe, and TensorFlow for ML. Implementation involves building a cross-platform mobile app and integrating fitness wearables.",
     "category": "Product Service",
-    "payment_status": "Pending",
-    "Votes": "29"
+    "payment_status": 0,
+    "Votes": 29
   },
   {
     "id": 7,
@@ -101,8 +101,8 @@
     "pre_description": "Hi, this is Priya Ramesh. I'm building a secure, blockchain-based voting platform to enable digital democracy.",
     "description": "This platform allows citizens to vote securely using their mobile devices. It uses blockchain for decentralized vote storage, ensuring tamper-proof records. Identity verification is handled via biometrics and government ID linkage. Audit trails allow election authorities to verify results in real time. Implementation includes developing a blockchain backend (e.g., Ethereum), integrating KYC tools, and building a voter-friendly mobile interface with strict cybersecurity protocols.",
     "category": "Government",
-    "payment_status": "Pending",
-    "Votes": "52"
+    "payment_status": 0,
+    "Votes": 52
   },
   {
     "id": 8,
@@ -116,8 +116,8 @@
     "pre_description": "Hi, this is Abhay Rao. I'm creating a smart cooking app that suggests recipes based on ingredients you already have.",
     "description": "The app uses computer vision to recognize ingredients via your phone’s camera and suggests recipes accordingly. It reduces waste and helps plan meals easily. Features include calorie tracking, dietary filters, and step-by-step voice-assisted cooking. Implementation uses image recognition APIs (e.g., Google Vision), recipe databases, and ML models for ingredient substitution. A mobile-first approach ensures accessibility.",
     "category": "Product Service",
-    "payment_status": "Pending",
-    "Votes": "24"
+    "payment_status": 0,
+    "Votes": 24
   },
   {
     "id": 9,
@@ -131,8 +131,8 @@
     "pre_description": "Hi, this is Lakshmi Krishnan. I'm working on a time zone planner to simplify scheduling across global teams.",
     "description": "This app visualizes overlapping working hours, holidays, and local time data for team members across the globe. It syncs with calendars (Google, Outlook) and allows scheduling based on shared availability. Features include auto-timezone conversion, holiday integration, and work-hour customization. It will be built using React for UI, Node.js for backend, and Google Calendar APIs for integration.",
     "category": "Productivity",
-    "payment_status": "Pending",
-    "Votes": "09"
+    "payment_status": 0,
+    "Votes": 9
   },
   {
     "id": 16,
@@ -146,8 +146,8 @@
     "pre_description": "Hi, this is Tarun Joseph. I'm initiating a project to rescue and care for stray dogs using mobile vet clinics and community support.",
     "description": "This is a community-driven animal welfare project to vaccinate, treat, and rehabilitate stray dogs. It deploys mobile veterinary units for on-site care and organizes volunteer rescue and adoption drives. The initiative includes a database of treated dogs, awareness campaigns, and partnerships with vet colleges. Implementation involves vehicle procurement, staff training, crowdfunding, and a tracking app to report injured or sick animals.",
     "category": "Non Profitable",
-    "payment_status": "Pending",
-    "Votes": "65"
+    "payment_status": 0,
+    "Votes": 65
   },
   {
     "id": 17,
@@ -161,7 +161,7 @@
     "pre_description": "Hi, this is Komal Sinha. I'm working on a free transportation initiative to ensure children in rural areas get to school safely.",
     "description": "This non-profit project aims to reduce school dropout rates by providing safe, free transportation to children in remote villages. It focuses on underserved regions where distance is a barrier to education. The service will be run by trained drivers, with fixed routes and safety checks. Implementation involves vehicle acquisition, route planning via GIS tools, local partnerships, and volunteer recruitment for sustainability.",
     "category": "Non Profitable",
-    "payment_status": "Pending",
-    "Votes": "59"
+    "payment_status": 0,
+    "Votes": 59
   }
 ]
