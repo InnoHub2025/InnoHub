@@ -2,43 +2,65 @@ function display() {
   fetch("./skills.json").then((res) => {if (!res.ok) {} return res.json();}).then((data) => {
   
   skills = data; 
-  showData(skills, true, '533003');
+  showData(skills, false, '533003');
   localStorage['skills'] = JSON.stringify(skills);
   
 }).catch();
 }
 
 display();
-document.getElementById('choose').innerText=(''+localStorage['pincode']);
+document.getElementById('choose').innerText=('Choose');
+
 function pincode(){
   let pincodE = prompt('Enter Pincode');
-  localStorage['pincode'] = pincodE;
+  if (pincodE != null && pincodE !== '') {
+    localStorage['pincode'] = pincodE;
+    document.getElementById('choose').innerText=(''+localStorage['pincode']);
+    showData(skills, true, localStorage['pincode']);
+  } else {
+    alert('Enter a valid pincode');
+  }
 }
 
 function showResults(){
    if (document.getElementById('search').value===''){
      display();
    }else{
-   let pincod = localStorage['pincode'];
-   let skillsData = JSON.parse(localStorage['skills']);
-   showData(skillsData, false, pincod);
+     let pincod = localStorage['pincode'];
+     let skillsData = JSON.parse(localStorage['skills']);
+     showData(skillsData, true, pincod);
    }
 }
 
-
 function showData(data, isSearch, pin){
+   
+  document.getElementById("sectionList").innerText='';
   
   data.forEach((skill)=>{
         if(isSearch){
-        if(skill['name'].includes(document.getElementById('search').value) || skill['skill'].includes(document.getElementById('search').value) || skill['pincode'].includes(document.getElementById('search').value)){
-           if(localStorage['pincode']!="undefined" || localStorage['pincode']!== undefined ){
-             if(skill['pincode']===localStorage['pincode']){
-             addProduct(data, skill, skill['name'], skill['gender'],  skill['img'],  skill['skill'],  skill['experience'],  skill['contact'],  skill['country'],  skill['pincode']);
-             }
-          }else{
-             addProduct(data, skill, skill['name'], skill['gender'],  skill['img'],  skill['skill'],  skill['experience'],  skill['contact'],  skill['country'],  skill['pincode']);
-           }
-        }
+            if (document.getElementById('search').value !== '') {
+                  if(skill['name'].toLowerCase().includes(document.getElementById('search').value.toLowerCase()) || skill['skill'].toLowerCase().includes(document.getElementById('search').value.toLowerCase()) || skill['pincode'].includes(document.getElementById('search').value)){
+                     
+                    if(document.getElementById('choose').innerText !== 'Choose'){
+                       if(skill['pincode']===localStorage['pincode']){
+                              addProduct(data, skill, skill['name'], skill['gender'],  skill['img'],  skill['skill'],  skill['experience'],  skill['contact'],  skill['country'],  skill['pincode']);
+                       }
+                    }else{
+                      addProduct(data, skill, skill['name'], skill['gender'],  skill['img'],  skill['skill'],  skill['experience'],  skill['contact'],  skill['country'],  skill['pincode']);
+                    } 
+                  }else{
+                       //addProduct(data, skill, skill['name'], skill['gender'],  skill['img'],  skill['skill'],  skill['experience'],  skill['contact'],  skill['country'],  skill['pincode']);
+                  }   
+              } else {
+                if(document.getElementById('choose').innerText !== 'Choose'){
+                   if(skill['pincode']===localStorage['pincode']){
+                          addProduct(data, skill, skill['name'], skill['gender'],  skill['img'],  skill['skill'],  skill['experience'],  skill['contact'],  skill['country'],  skill['pincode']);
+                   }
+                }else{
+                  addProduct(data, skill, skill['name'], skill['gender'],  skill['img'],  skill['skill'],  skill['experience'],  skill['contact'],  skill['country'],  skill['pincode']);
+                }
+              }
+          
         }else{
            addProduct(data, skill, skill['name'], skill['gender'],  skill['img'],  skill['skill'],  skill['experience'],  skill['contact'],  skill['country'],  skill['pincode']);
         }
@@ -73,7 +95,7 @@ function addProduct(skills, data, name, gender, image, skill, experience, contac
 
   const origin = document.createElement('h5');
   origin.setAttribute("class", "experience");
-  origin.innerHTML = country+" <img class='ctryImg' src='"+ctry[country]+"'></img>";
+  origin.innerHTML = "<img class='ctryImg' src='"+ctry['India']+"'></img> India";
 
   const experiences = document.createElement('h5');
   experiences.setAttribute("class", "experience");

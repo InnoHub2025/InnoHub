@@ -31,7 +31,6 @@
 
 
 			<div class="navRight">
-				<button id="wishlist"><i class="fi fi-ss-heart"></i><p>Wishlist</p></button>
 				<div id="profile">
 					<img src=".\media\dummy.jpg" placeholder=".\media\dummy.jpg"></img>
 				</div>
@@ -40,13 +39,13 @@
 
 		<header id="header">
 				<div class="search">
-					<input type="text" name="" value="" placeholder="Search here" id="search">
-					<button id="searchBtn"><i class="fi fi-br-search"></i></button>
+					<input type="text" name="" value="" placeholder="Search here" id="search" onkeydown="showResults()">
+					<button id="searchBtn" onclick="showResults()"><i class="fi fi-br-search"></i></button>
 				</div>
 				<div class="location">
 					<i class="fi fi-br-marker" id="loc"></i>
-					<a class="choose">Choose location</a>
-					<p class="address">Jntuk Kakinada, Andhra Pradesh</p>
+					<p class="address">Showing results in pincode: </p>
+					<a id="choose" onclick="pincode()"> Choose</a>
 				</div>
 		</header>
 
