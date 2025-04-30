@@ -421,7 +421,7 @@ footer p i{
 	display: flex;
 	color: white;
 	padding: 10%;
-	gap: 20,px;
+	gap: 20px;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -445,9 +445,11 @@ footer p i{
 	background-color: white;
 	padding: 25px;
 	width: 80%;
+	height: 80%;
 	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;
 	gap: 10px;
 	font-family: 'Poppins', sans-serif;
 }
@@ -487,7 +489,7 @@ footer p i{
 	color: black;
 	font-style: normal;
 	font-weight: 600;
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 	text-align: center;
 }
 	footer p {
