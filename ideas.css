@@ -435,7 +435,7 @@ footer p i{
 	height: 100%;
 	display: none;
 	align-items: center;
-	overflow-y: scroll;
+	overflow-y: hidden;
 	overflow-x: hidden;
 	justify-content: center;
 	background-color: rgba(0, 0, 0, 0.5);
@@ -449,6 +449,7 @@ footer p i{
 	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
+	overflow-y: scroll;
 	justify-content: space-around;
 	gap: 10px;
 	font-family: 'Poppins', sans-serif;
